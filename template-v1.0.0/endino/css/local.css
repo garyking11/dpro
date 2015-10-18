@@ -1,0 +1,370 @@
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    position: relative;
+    width: 96% !important;   	 
+	background-clip: padding-box !important;
+    width: 1000px;
+	max-width: 1000px;
+	box-sizing: border-box;
+}
+
+.clearfix::before, .clearfix::after, .row::before, .row::after {
+	content: "";
+	display: table;
+}
+.clearfix::after, .row::after, .slideshow-item::after {
+	clear: both;
+}
+.clearfix, .row, .slideshow-item {
+}
+.block, .show {
+	display: block;
+}
+.hide {
+	display: none;
+}
+
+.clear {
+	clear: both;
+}
+.clearleft {
+	clear: left;
+}
+.clearright {
+	clear: right;
+}
+
+
+/* Start mobile first here */
+ 
+.album-thumbnails {
+float: left; 
+margin: 0 10px 10px 0; 
+width: 75px; 
+height: 75px;
+}
+
+/* start discography styles*/
+
+.discography div div {
+	padding: 5px;
+}
+
+.row {
+    background: #fff;
+}
+.row:nth-child(odd) {
+    background: #E4E4E4;
+}
+.row:nth-child(even) {
+    background: #fff;
+}
+
+.discography .disc-heading {
+	background: #808080; 
+	color: #000;
+}
+
+/*  end discography styles*/
+
+
+html {
+    height:100%;
+}
+
+body {
+
+    -webkit-font-smoothing:antialiased;
+    background:#efefef;
+    color:#000000;
+    font-family: "Trebuchet MS", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:medium;
+
+    line-height:1.5em;
+    text-rendering:optimizeLegibility;
+
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight:700;
+    line-height:1em;
+    word-wrap:break-word;
+    text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #404040;
+}
+
+#container {text-align: left; max-width: 950px; margin: 10px auto; position: relative; background: #EFEFEF;}
+
+#logo {
+    text-align:center;
+    float:none;
+    position:relative; 
+}
+
+#logo span {
+    text-align: center;
+   
+}
+
+.site-name {
+    display:block;
+    font-size:3em;
+    padding-top:20px;
+}
+
+.site-name a {
+    font-weight:700;
+    text-align:center;
+}
+
+.site-description {
+    display:block;
+    font-size:.75em;
+    margin:10px 10px 10px 0;
+}
+
+
+button, input, select, textarea {
+    width:auto;
+    overflow:visible;
+    margin:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+
+textarea {
+    overflow:auto;
+    vertical-align:text-top;
+}
+
+/* =Links
+-------------------------------------------------------------- */
+a {
+    color:#04c;
+    font-weight:400;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#808;
+    text-decoration:none;
+}
+
+::selection {
+    background:#cdd0d4;
+    text-shadow:none;
+}
+
+
+/* =Horizontal Rule
+-------------------------------------------------------------- */
+hr {
+    background:#ccc;
+    border:none;
+    clear:both;
+    color:#ccc;
+    float:none;
+    height:.2em;
+    width:100%;
+}
+
+hr.space {
+    background:#fff;
+    color:#fff;
+}
+
+
+/* =Typography
+-------------------------------------------------------------- */
+p {
+    word-wrap:break-word;
+}
+
+i,
+em,
+dfn,
+cite {
+    font-style:italic;
+}
+
+tt,
+var,
+pre,
+kbd,
+samp,
+code {
+    font-family:Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    font-style:normal;
+}
+
+b,
+strong {
+    font-weight:700;
+}
+
+
+#header
+{
+    background: #ccc;
+    padding: 20px;
+}
+
+#header h1 { margin: 0; }
+
+#navigation
+{
+    float: left;
+    width: 100%;
+    background: #333;
+}
+
+#navigation ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li a
+{
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content
+{
+    clear: left;
+    padding: 20px;
+}
+
+#content h2
+{
+    color: #000;
+    font-size: 160%;
+    margin: 0 0 .5em;
+}
+
+#footer
+{
+    background: #ccc;
+    text-align: right;
+    padding: 20px;
+    height: 1%;
+}
+
+ /* End mobile first here */
+
+@media screen and (min-width: 48em) {
+	
+.row > .span1, .row > .span2, .row > .span3, .row > .span4, .row > .span5, .row > .span6, .row > .span7, .row > .span8, .row > .span9, .row > .span10, .row > .span11, .row > .span12, .row > .quarter, .row > .third, .row > .half, .row > .full {
+	background-clip: padding-box !important;
+	border: 0 solid rgba(0, 0, 0, 0);
+	box-sizing: border-box;
+	display: block;
+	float: left;
+	margin-left: 5%;
+}
+.row > .span1:first-child, .row > .span2:first-child, .row > .span3:first-child, .row > .span4:first-child, .row > .span5:first-child, .row > .span6:first-child, .row > .span7:first-child, .row > .span8:first-child, .row > .span9:first-child, .row > .span10:first-child, .row > .span11:first-child, .row > .span12, .row > .quarter:first-child, .row > .third:first-child, .row > .half:first-child, .row > .full {
+	margin-left: 0;
+}
+.row > .span1 {
+	width: 3.75%;
+}
+.row > .span2 {
+	width: 12.5%;
+}
+.row > .span3, .row > .quarter {
+	width: 21.25%;
+}
+.row > .span4, .row > .third {
+	width: 30%;
+}
+.row > .span5 {
+	width: 38.75%;
+}
+.row > .span6, .row > .half {
+	width: 47.5%;
+}
+.row > .span7 {
+	width: 56.25%;
+}
+.row > .span8 {
+	width: 65%;
+}
+.row > .span9 {
+	width: 73.75%;
+}
+.row > .span10 {
+	width: 82.5%;
+}
+.row > .span11 {
+	width: 91.25%;
+}
+.row > .span12, .row > .full { 
+	width: 100%;
+}
+.row > .offset1 {
+	margin-left: 8.75%;
+}
+.row > .offset2 {
+	margin-left: 17.5%;
+}
+.row > .offset3 {
+	margin-left: 26.25%;
+}
+.row > .offset4 {
+	margin-left: 35%;
+}
+.row > .offset5 {
+	margin-left: 43.75%;
+}
+.row > .offset6 {
+	margin-left: 52.5%;
+}
+.row > .offset7 {
+	margin-left: 61.25%;
+}
+.row > .offset8 {
+	margin-left: 70%;
+}
+.row > .offset9 {
+	margin-left: 78.75%;
+}
+.row > .offset10 {
+	margin-left: 87.5%;
+}
+.row > .offset11 {
+	margin-left: 96.25%;
+}
+ 
+	/* Apply tablet rules here */
+	
+
+
+
+
+} /* end 48em */
+
+@media screen and (min-width: 64em) {
+/* desktop specific rules */
+	
+	/* Apply desktop rules here */
+	
+}

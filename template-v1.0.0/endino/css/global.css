@@ -1,0 +1,221 @@
+@media only screen and (max-width: 47.9375em) {
+.show-mob, .showmob, .showmobile {
+    display: block !important;
+}
+.hide-mob, .hidemob, .hidemobile, .no-mob, .nomob {
+    display: none !important;
+}
+.mob-inline-block {
+    display: inline-block !important;
+}
+.mob-inline {
+    display: inline !important;
+}
+.mob-alignleft {
+    text-align: left;
+}
+.mob-alignright {
+    text-align: right;
+}
+.mob-aligncenter {
+    text-align: center;
+}
+.mob-nostyling {
+    list-style: outside none none;
+    padding: 0;
+}
+.mob-nopadding {
+    padding: 0;
+}
+.mob-nomargin {
+    margin: 0;
+}
+.mob-left {
+    float: left;
+}
+.mob-right {
+    float: right;
+}
+.mob-nofloat, .mobnofloat {
+    float: none;
+}
+.mob-clear {
+    clear: both;
+}
+.mob-clearleft {
+    clear: left;
+}
+.mob-clearright {
+    clear: right;
+}
+.mob-noclear {
+    clear: none;
+}
+.mob-nomax {
+    max-width: none;
+}
+.mob-fill {
+    width: 100%;
+}
+.mob-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+form label input, form label textarea {
+    width: 98% !important;
+}
+form .radio-group label input {
+    width: auto !important;
+}
+}
+
+
+@media only screen and (min-width: 48em) and (max-width: 63.9375em) {
+.tab-affix {
+    position: fixed;
+}
+.show-tab, .showtab, .showtablet {
+    display: block !important;
+}
+.hide-tab, .hidetab, .hidetablet {
+    display: none !important;
+}
+.tab-inline-block {
+    display: inline-block !important;
+}
+.tab-inline {
+    display: inline !important;
+}
+.tab-alignleft {
+    text-align: left;
+}
+.tab-alignright {
+    text-align: right;
+}
+.tab-aligncenter {
+    text-align: center;
+}
+.tab-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab-nostyling {
+    list-style: outside none none;
+    padding: 0;
+}
+.tab-nopadding {
+    padding: 0;
+}
+.tab-nomargin {
+    margin: 0;
+}
+.tab-left {
+    float: left;
+}
+.tab-right {
+    float: right;
+}
+.tab-nofloat, .tabnofloat {
+    float: none;
+}
+.tab-clear {
+    clear: both;
+}
+.tab-clearleft {
+    clear: left;
+}
+.tab-clearright {
+    clear: right;
+}
+.tab-noclear {
+    clear: none;
+}
+.tab-nomax {
+    max-width: none;
+}
+.tab-fill {
+    width: 100%;
+}
+
+.img-left {
+    clear: left;
+    float: left;
+    margin: 0 2.5% 2.5% 0;
+}
+.img-right {
+    clear: right;
+    float: right;
+    margin: 0 0 2.5% 2.5%;
+}
+}
+@media only screen and (min-width: 64em) {
+.desk-affix {
+    position: fixed;
+}
+.show-desk, .showdesk, .showdesktop {
+    display: block !important;
+}
+.hide-desk, .hidedesk, .hidedesktop {
+    display: none !important;
+}
+.desk-inline-block {
+    display: inline-block !important;
+}
+.desk-inline {
+    display: inline !important;
+}
+.desk-alignleft {
+    text-align: left;
+}
+.desk-alignright {
+    text-align: right;
+}
+.desk-aligncenter {
+    text-align: center;
+}
+.desk-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.desk-nostyling {
+    list-style: outside none none;
+    padding: 0;
+}
+.desk-nopadding {
+    padding: 0;
+}
+.desk-nomargin {
+    margin: 0;
+}
+.desk-left {
+    float: left;
+}
+.desk-right {
+    float: right;
+}
+.desk-nofloat, .desknofloat {
+    float: none;
+}
+.desk-clear {
+    clear: both;
+}
+.desk-clearleft {
+    clear: left;
+}
+.desk-clearright {
+    clear: right;
+}
+.desk-noclear {
+    clear: none;
+}
+.desk-nomax {
+    max-width: none;
+}
+.desk-fill {
+    width: 100%;
+}
+}
+
+.aligncenter {
+	text-align: center;
+}
